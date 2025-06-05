@@ -94,6 +94,9 @@ int main()
             cin >> value;
             stack .pop()
             
+            case 2 :
+            stack.pop();
+            break;
             
            }
     }
