@@ -13,4 +13,12 @@ class Node
     }
 };
 
-class 
+class Stack
+{
+    Node *top;
+    public:
+    Stack()
+    {
+        top = NULL;
+    }
+}
