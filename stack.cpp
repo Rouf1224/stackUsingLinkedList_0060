@@ -92,13 +92,26 @@ int main()
             case 1 :
             cout << "Enter the value to push:";
             cin >> value;
-            stack .pop()
+            stack .push(value);
+            break;
             
             case 2 :
             stack.pop();
             break;
-            
+
+            case 3 :
+            stack.pop();
+            break;
+             case 4:
+             cout << "Exiting program." << endl;
+             break;
+             default:
+             cout << "Invalid choice. Try again." << endl;
+             break;
+
            }
+           cout << endl;
     }
+    return 0;
 
 }
